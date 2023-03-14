@@ -1,0 +1,397 @@
+{
+    "Name": "耳鸣功能指数量表（TFI）",
+    "Instructions": "该量表从“侵扰性”、“控制感”、“认知”、“睡眠”、“听觉”、“放松”、“生活质量”和“情感”8个方面衡量您的耳鸣情况，请您结合自身情况认真作答。",
+    "TextandValues": [
+        {
+            "questiontext": "在过去的一周里……\n\n\n在您醒着的时候，您能明确意识到耳鸣的时间比例为？",
+            "answers": [
+                {
+                    "optiontext": "0%——从无感觉",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "100%——一直感觉",
+                    "optionvalue": 10
+                }
+            ]
+        },
+        {
+            "questiontext": "在过去的一周里……\n\n\n您的耳鸣的强烈程度或响度为？",
+            "answers": [
+                {
+                    "optiontext": "0——完全 不强烈/不响",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "10——极其 强烈/响",
+                    "optionvalue": 10
+                }
+            ]
+        },
+        {
+            "questiontext": "在过去的一周里……\n\n\n您醒着的时候，被耳鸣困扰的时间比例为？",
+            "answers": [
+                {
+                    "optiontext": "0%——没有时间",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "100%——所有时间",
+                    "optionvalue": 10
+                }
+            ]
+        },
+        {
+            "questiontext": "在过去的一周里……\n\n\n您觉得您的耳鸣能控制住吗？",
+            "answers": [
+                {
+                    "optiontext": "0——完全受控",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "10——完全不受控",
+                    "optionvalue": 10
+                }
+            ]
+        },
+        {
+            "questiontext": "在过去的一周里……\n\n\n您从容应对耳鸣的难易程度？",
+            "answers": [
+                {
+                    "optiontext": "0——非常容易",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "10——无法应对",
+                    "optionvalue": 10
+                }
+            ]
+        },
+        {
+            "questiontext": "在过去的一周里……\n\n\n您忽略自己耳鸣的难易程度？",
+            "answers": [
+                {
+                    "optiontext": "0——非常容易",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "10——无法忽略",
+                    "optionvalue": 10
+                }
+            ]
+        },
+        {
+            "questiontext": "在过去的一周里……\n\n\n您集中注意力的能力是否受耳鸣干扰？",
+            "answers": [
+                {
+                    "optiontext": "0——完全不受干扰",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "10——完全受到干扰",
+                    "optionvalue": 10
+                }
+            ]
+        },
+        {
+            "questiontext": "在过去的一周里……\n\n\n您清晰思考的能力是否受耳鸣干扰？",
+            "answers": [
+                {
+                    "optiontext": "0——完全不受干扰",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "10——完全受到干扰",
+                    "optionvalue": 10
+                }
+            ]
+        },
+        {
+            "questiontext": "在过去的一周里……\n\n\n您把注意力集中到耳鸣以外的事情上的能力？",
+            "answers": [
+                {
+                    "optiontext": "0——完全不受干扰",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "10——完全受到干扰",
+                    "optionvalue": 10
+                }
+            ]
+        },
+        {
+            "questiontext": "在过去的一周里……\n\n\n耳鸣使您难以入睡或难以保持睡眠的情况有多频繁？",
+            "answers": [
+                {
+                    "optiontext": "0——从来没有过困难",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "10——总是有困难",
+                    "optionvalue": 10
+                }
+            ]
+        },
+        {
+            "questiontext": "在过去的一周里……\n\n\n耳鸣使您难以获得充足睡眠的情况有多频繁？",
+            "answers": [
+                {
+                    "optiontext": "0——从来没有过困难",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "10——总是有困难",
+                    "optionvalue": 10
+                }
+            ]
+        },
+        {
+            "questiontext": "在过去的一周里……\n\n\n耳鸣使您无法如愿地熟睡或安睡的时间有多少？",
+            "answers": [
+                {
+                    "optiontext": "0——从不影响",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "10——一直影响",
+                    "optionvalue": 10
+                }
+            ]
+        },
+        {
+            "questiontext": "在过去的一周里……\n\n\n耳鸣是否干扰您听清楚的能力？",
+            "answers": [
+                {
+                    "optiontext": "0——完全不受干扰",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "10——完全受到干扰",
+                    "optionvalue": 10
+                }
+            ]
+        },
+        {
+            "questiontext": "在过去的一周里……\n\n\n您理解别人说话内容的能力是否受耳鸣干扰？",
+            "answers": [
+                {
+                    "optiontext": "0——完全不受干扰",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "10——完全受到干扰",
+                    "optionvalue": 10
+                }
+            ]
+        },
+        {
+            "questiontext": "在过去的一周里……\n\n\n您跟进对话的能力（小组讨论或会议上）是否受耳鸣干扰？",
+            "answers": [
+                {
+                    "optiontext": "0——完全不受干扰",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "10——完全受到干扰",
+                    "optionvalue": 10
+                }
+            ]
+        },
+        {
+            "questiontext": "在过去的一周里……\n\n\n您安静地休息是否受耳鸣干扰？",
+            "answers": [
+                {
+                    "optiontext": "0——完全不受干扰",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "10——完全受到干扰",
+                    "optionvalue": 10
+                }
+            ]
+        },
+        {
+            "questiontext": "在过去的一周里……\n\n\n您放松的能力是否受耳鸣干扰？",
+            "answers": [
+                {
+                    "optiontext": "0——完全不受干扰",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "10——完全受到干扰",
+                    "optionvalue": 10
+                }
+            ]
+        },
+        {
+            "questiontext": "在过去的一周里……\n\n\n您享受安静平和状态的能力是否受耳鸣干扰？",
+            "answers": [
+                {
+                    "optiontext": "0——完全不受干扰",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "10——完全受到干扰",
+                    "optionvalue": 10
+                }
+            ]
+        },
+        {
+            "questiontext": "在过去的一周里……\n\n\n您对社交活动的享受程度是否受耳鸣影响？",
+            "answers": [
+                {
+                    "optiontext": "0——完全不受干扰",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "10——完全受到干扰",
+                    "optionvalue": 10
+                }
+            ]
+        },
+        {
+            "questiontext": "在过去的一周里……\n\n\n您对生活的享受程度是否受耳鸣干扰？",
+            "answers": [
+                {
+                    "optiontext": "0——完全不受干扰",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "10——完全受到干扰",
+                    "optionvalue": 10
+                }
+            ]
+        },
+        {
+            "questiontext": "在过去的一周里……\n\n\n您与家人、朋友和其他人的关系是否受耳鸣的干扰影响？",
+            "answers": [
+                {
+                    "optiontext": "0——完全不受干扰",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "10——完全受到干扰",
+                    "optionvalue": 10
+                }
+            ]
+        },
+        {
+            "questiontext": "在过去的一周里……\n\n\n耳鸣导致您在工作或其他任务上遇到困难（比如家务、学习以及照顾孩子或他人）的情况有多频繁？",
+            "answers": [
+                {
+                    "optiontext": "0——从来没有过困难",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "10——总是有困难",
+                    "optionvalue": 10
+                }
+            ]
+        },
+        {
+            "questiontext": "在过去的一周里……\n\n\n耳鸣使您感到焦虑或担忧的程度？",
+            "answers": [
+                {
+                    "optiontext": "0——从不焦虑或担忧",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "10——极度焦虑或担忧",
+                    "optionvalue": 10
+                }
+            ]
+        },
+        {
+            "questiontext": "在过去的一周里……\n\n\n您因为耳鸣而感到困扰或沮丧的程度？",
+            "answers": [
+                {
+                    "optiontext": "0——从不困扰或沮丧",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "10——极度困扰或沮丧",
+                    "optionvalue": 10
+                }
+            ]
+        },
+        {
+            "questiontext": "在过去的一周里……\n\n\n耳鸣使您感到消沉抑郁的程度？",
+            "answers": [
+                {
+                    "optiontext": "0——从不消沉抑郁",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "10——极度消沉抑郁",
+                    "optionvalue": 10
+                }
+            ]
+        }
+    ],
+    "ResultRankRef": [
+        {
+            "rankpoints": 73,
+            "rankdescriptions": "极重度"
+        },
+        {
+            "rankpoints": 54,
+            "rankdescriptions": "重度"
+        },
+        {
+            "rankpoints": 32,
+            "rankdescriptions": "中度"
+        },
+        {
+            "rankpoints": 18,
+            "rankdescriptions": "轻度"
+        },
+        {
+            "rankpoints": 1,
+            "rankdescriptions": "轻微"
+        },
+        {
+            "rankpoints": 0,
+            "rankdescriptions": "正常"
+        }
+    ],
+    "UserResult": [
+        {
+            "userrankrd": "正常",
+            "userrawscorerd": 0.0,
+            "userAspectScores": [
+                {
+                    "aspectName": "I: 侵扰性(不愉快、 侵扰性、持续性)",
+                    "aspectScore": 0.0
+                },
+                {
+                    "aspectName": "Sc: 控制感(降低控制感)",
+                    "aspectScore": 0.0
+                },
+                {
+                    "aspectName": "C: 认知(认知干扰)",
+                    "aspectScore": 0.0
+                },
+                {
+                    "aspectName": "SL: 睡眠(睡眠障碍)",
+                    "aspectScore": 0.0
+                },
+                {
+                    "aspectName": "A: 听觉(耳鸣导致的听觉困难)",
+                    "aspectScore": 0.0
+                },
+                {
+                    "aspectName": "R: 放松(放松干扰)",
+                    "aspectScore": 0.0
+                },
+                {
+                    "aspectName": "Q: 生活质量(生活质量降低)",
+                    "aspectScore": 0.0
+                },
+                {
+                    "aspectName": "E: 情感(情绪困扰)",
+                    "aspectScore": 0.0
+                }
+            ]
+        }
+    ]
+}

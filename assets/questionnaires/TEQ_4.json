@@ -1,0 +1,181 @@
+{
+    "Name": "耳鸣评价量表（TEQ）",
+    "Instructions": "该量表将对您的耳鸣严重程度进行等级评价。共有6道题，围绕耳鸣出现的环境、持续时间、对睡眠的影响、对工作(或学习)的影响、对情绪的影响及患者对耳鸣严重性的总体感受等6个方面。请您结合自身感受认真作答。",
+    "TextandValues": [
+        {
+            "questiontext": "您在什么环境下可听到耳鸣？",
+            "answers": [
+                {
+                    "optiontext": "无耳鸣",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "安静环境",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "一般环境",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "任何环境",
+                    "optionvalue": 3
+                }
+            ]
+        },
+        {
+            "questiontext": "您的耳鸣是间歇性还是持续性？",
+            "answers": [
+                {
+                    "optiontext": "无耳鸣",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "间歇时间大于持续时间",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "持续时间大于间歇时间",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "持续性",
+                    "optionvalue": 3
+                }
+            ]
+        },
+        {
+            "questiontext": "耳鸣影响了您的睡眠吗?",
+            "answers": [
+                {
+                    "optiontext": "无影响",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "有时影响",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "经常影响",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "总是影响",
+                    "optionvalue": 3
+                }
+            ]
+        },
+        {
+            "questiontext": "耳鸣影响了您的工作（或学习）吗？",
+            "answers": [
+                {
+                    "optiontext": "无影响",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "有时影响",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "经常影响",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "总是影响",
+                    "optionvalue": 3
+                }
+            ]
+        },
+        {
+            "questiontext": "耳鸣影响了您的情绪吗?",
+            "answers": [
+                {
+                    "optiontext": "无影响",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "有时影响",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "经常影响",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "总是影响",
+                    "optionvalue": 3
+                }
+            ]
+        },
+        {
+            "questiontext": "您认为自己的耳鸣有多严重？\n\n（请在0~6分之间选择一个最合适的分数）",
+            "answers": [
+                {
+                    "optiontext": "0——完全不严重",
+                    "optionvalue": 0
+                },
+
+                {
+                    "optiontext": "6——极度严重",
+                    "optionvalue": 6
+                }
+            ]
+        }
+    ],
+    "ResultRankRef": [
+        {
+            "rankpoints": 19,
+            "rankdescriptions": "V 级"
+        },
+        {
+            "rankpoints": 15,
+            "rankdescriptions": "Ⅳ级"
+        },
+        {
+            "rankpoints": 11,
+            "rankdescriptions": "Ⅲ级"
+        },
+        {
+            "rankpoints": 7,
+            "rankdescriptions": "Ⅱ级"
+        },
+        {
+            "rankpoints": 1,
+            "rankdescriptions": "I 级"
+        },
+        {
+            "rankpoints": 0,
+            "rankdescriptions": "无耳鸣"
+        }
+    ],
+    "UserResult": [
+        {
+            "userrankrd": "正常",
+            "userrawscorerd": 0.0,
+            "userAspectScores": [               {
+                "aspectName": "耳鸣出现的环境",
+                "aspectScore": 0.0
+            },
+            {
+                "aspectName": "耳鸣持续时间",
+                "aspectScore": 0.0
+            },
+            {
+                "aspectName": "耳鸣对睡眠的影响",
+                "aspectScore": 0.0
+            },
+            {
+                "aspectName": "耳鸣对工作（或学习）的影响",
+                "aspectScore": 0.0
+            },
+            {
+                "aspectName": "耳鸣对情绪的影响",
+                "aspectScore": 0.0
+            },
+            {
+                "aspectName": "患者对耳鸣的总体感受",
+                "aspectScore": 0.0
+            }]
+        }
+    ]
+}

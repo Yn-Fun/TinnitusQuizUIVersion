@@ -1,0 +1,58 @@
+Date : 2023-03-13 12:30:10
+Directory : d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\lib
+Total : 27 files,  3510 codes, 785 comments, 352 blanks, all 4647 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Dart     |         27 |      3,510 |        785 |        352 |      4,647 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                              | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                 |         27 |      3,510 |        785 |        352 |      4,647 |
+| . (Files)                                                                                         |          3 |        266 |         85 |         36 |        387 |
+| Quizs_Page                                                                                        |          4 |      2,143 |        478 |        165 |      2,786 |
+| configs                                                                                           |          2 |         35 |          3 |          7 |         45 |
+| quiz_models                                                                                       |         11 |        212 |         36 |         52 |        300 |
+| routers                                                                                           |          1 |          0 |         41 |          7 |         48 |
+| sections                                                                                          |          1 |        342 |         66 |         11 |        419 |
+| widgets                                                                                           |          5 |        512 |         76 |         74 |        662 |
++---------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                          | language | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\lib\Quizs_Page\aQuizPage.dart            | Dart     |      1,794 |        236 |        130 |      2,160 |
+| d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\lib\Quizs_Page\aQuizResultPage.dart      | Dart     |        215 |         43 |         14 |        272 |
+| d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\lib\Quizs_Page\qrDisplay.dart            | Dart     |         42 |        106 |         11 |        159 |
+| d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\lib\Quizs_Page\quizLocalHispage.dart     | Dart     |         92 |         93 |         10 |        195 |
+| d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\lib\SectionsNavigator.dart               | Dart     |         57 |         41 |          8 |        106 |
+| d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\lib\configs\app_colors.dart              | Dart     |         16 |          1 |          3 |         20 |
+| d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\lib\configs\media_QSize.dart             | Dart     |         19 |          2 |          4 |         25 |
+| d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\lib\loginpage.dart                       | Dart     |         94 |         15 |          5 |        114 |
+| d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\lib\main.dart                            | Dart     |        115 |         29 |         23 |        167 |
+| d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\lib\quiz_models\Answer.dart              | Dart     |         18 |          0 |          5 |         23 |
+| d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\lib\quiz_models\Aspectscored.dart        | Dart     |         20 |          0 |          5 |         25 |
+| d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\lib\quiz_models\PsqiAns.dart             | Dart     |         13 |          1 |          4 |         18 |
+| d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\lib\quiz_models\Question.dart            | Dart     |         20 |          0 |          6 |         26 |
+| d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\lib\quiz_models\QuizInfo.dart            | Dart     |         38 |         18 |          7 |         63 |
+| d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\lib\quiz_models\Quiz_types.dart          | Dart     |          7 |          1 |          1 |          9 |
+| d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\lib\quiz_models\QuizeLoadHelper.dart     | Dart     |         37 |          3 |          5 |         45 |
+| d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\lib\quiz_models\ResultRankRef.dart       | Dart     |         18 |          0 |          5 |         23 |
+| d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\lib\quiz_models\StoreQuizsTodate.dart    | Dart     |         14 |          8 |          6 |         28 |
+| d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\lib\quiz_models\UserResultRecord.dart    | Dart     |         27 |          0 |          6 |         33 |
+| d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\lib\quiz_models\getQrString.dart         | Dart     |          0 |          5 |          2 |          7 |
+| d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\lib\routers\routers.dart                 | Dart     |          0 |         41 |          7 |         48 |
+| d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\lib\sections\quizsSelection_section.dart | Dart     |        342 |         66 |         11 |        419 |
+| d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\lib\widgets\foldingcell.dart             | Dart     |        180 |         15 |         24 |        219 |
+| d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\lib\widgets\mybutton.dart                | Dart     |         34 |          0 |          5 |         39 |
+| d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\lib\widgets\mytimepicker.dart            | Dart     |        103 |          7 |         10 |        120 |
+| d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\lib\widgets\radiotile_options.dart       | Dart     |         64 |         40 |         24 |        128 |
+| d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\lib\widgets\slider0_10.dart              | Dart     |        131 |         14 |         11 |        156 |
+| Total                                                                                             |          |      3,510 |        785 |        352 |      4,647 |
++---------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+

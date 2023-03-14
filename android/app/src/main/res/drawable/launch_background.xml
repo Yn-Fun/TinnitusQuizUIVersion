@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Modify this file to customize your launch splash screen -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@android:color/white" />
+
+    <!-- You can insert your own image assets 这是系统一瞬间的启动屏幕 -->
+<!--    <item>-->
+<!--        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--            android:orientation="vertical" android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:background="@color/primary_white"-->
+<!--                android:src="@drawable/qidong_qehsnew"-->
+<!--                android:scaleType="fitCenter" />-->
+<!--        </RelativeLayout>-->
+
+<!--    </item>-->
+
+
+
+</layer-list>

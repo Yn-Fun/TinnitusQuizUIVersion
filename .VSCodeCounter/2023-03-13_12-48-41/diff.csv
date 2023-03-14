@@ -1,0 +1,23 @@
+"filename", "language", "Java Properties", "Gradle", "XML", "Kotlin", "JSON", "comment", "blank", "total"
+"d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\android\app\build.gradle", "Gradle", 0, 57, 0, 0, 0, 33, 18, 108
+"d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\android\app\src\debug\AndroidManifest.xml", "XML", 0, 0, 3, 0, 0, 4, 1, 8
+"d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\android\app\src\main\AndroidManifest.xml", "XML", 0, 0, 34, 0, 0, 11, 2, 47
+"d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\android\app\src\main\kotlin\com\example\qehs\MainActivity.kt", "Kotlin", 0, 0, 0, 38, 0, 17, 12, 67
+"d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\android\app\src\main\res\drawable\launch_background.xml", "XML", 0, 0, 4, 0, 0, 14, 7, 25
+"d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\android\app\src\main\res\layout\launch_screen.xml", "XML", 0, 0, 11, 0, 0, 1, 1, 13
+"d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\android\app\src\main\res\values-night\colors.xml", "XML", 0, 0, 6, 0, 0, 0, 0, 6
+"d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\android\app\src\main\res\values-night\styles.xml", "XML", 0, 0, 11, 0, 0, 11, 3, 25
+"d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\android\app\src\main\res\values-v21\styles.xml", "XML", 0, 0, 7, 0, 0, 0, 4, 11
+"d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\android\app\src\main\res\values\colors.xml", "XML", 0, 0, 6, 0, 0, 0, 1, 7
+"d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\android\app\src\main\res\values\styles.xml", "XML", 0, 0, 13, 0, 0, 22, 7, 42
+"d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\android\app\src\profile\AndroidManifest.xml", "XML", 0, 0, 3, 0, 0, 4, 1, 8
+"d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\android\build.gradle", "Gradle", 0, 27, 0, 0, 0, 0, 5, 32
+"d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\android\gradle.properties", "Java Properties", 3, 0, 0, 0, 0, 0, 1, 4
+"d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\android\gradle\wrapper\gradle-wrapper.properties", "Java Properties", 5, 0, 0, 0, 0, 1, 1, 7
+"d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\android\settings.gradle", "Gradle", 0, 8, 0, 0, 0, 0, 4, 12
+"d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\assets\questionnaires\PSQI_5.json", "JSON", 0, 0, 0, 0, -540, 0, 0, -540
+"d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\assets\questionnaires\TEQ_4.json", "JSON", 0, 0, 0, 0, -180, 0, -1, -181
+"d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\assets\questionnaires\TFI_3.json", "JSON", 0, 0, 0, 0, -397, 0, 0, -397
+"d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\assets\questionnaires\THI_1.json", "JSON", 0, 0, 0, 0, -673, 0, 0, -673
+"d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\assets\questionnaires\VAS_2.json", "JSON", 0, 0, 0, 0, -146, 0, 0, -146
+"Total", "-", 8, 92, 98, 38, -1936, 118, 67, -1515

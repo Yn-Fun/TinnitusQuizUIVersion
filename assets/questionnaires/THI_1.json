@@ -1,0 +1,673 @@
+{
+    "Name": "耳鸣致残量表（THI）",
+    "Instructions": "该量表旨在帮助您识别耳鸣可能给您带来的困扰。共有25道题，题目内容围绕耳鸣与日常生活关系。每题设有5个选项，分别表示不同的严重程度，请您结合自身感受认真作答。\n\t\t\t\t\t一直：持续出现该种情况\n\t\t\t\t\t频繁：间歇多次出现该种情况\n\t\t\t\t\t有时：该情况有时发生\n\t\t\t\t\t很少：该情况很少发生\n\t\t\t\t\t从不：该情况从未发生",
+    "TextandValues": [
+        {
+            "questiontext": "耳鸣会使您难以集中注意力吗？",
+            "answers": [
+                {
+                    "optiontext": "一直",
+                    "optionvalue": 4
+                },
+                {
+                    "optiontext": "频繁",
+                    "optionvalue": 3
+                },
+                {
+                    "optiontext": "有时",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "很少",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "从不",
+                    "optionvalue": 0
+                }
+            ]
+        },
+        {
+            "questiontext": "耳鸣声会使您难以听清别人说话吗？",
+            "answers": [
+                {
+                    "optiontext": "一直",
+                    "optionvalue": 4
+                },
+                {
+                    "optiontext": "频繁",
+                    "optionvalue": 3
+                },
+                {
+                    "optiontext": "有时",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "很少",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "从不",
+                    "optionvalue": 0
+                }
+            ]
+        },
+        {
+            "questiontext": "耳鸣声会使您生气吗？",
+            "answers": [
+                {
+                    "optiontext": "一直",
+                    "optionvalue": 4
+                },
+                {
+                    "optiontext": "频繁",
+                    "optionvalue": 3
+                },
+                {
+                    "optiontext": "有时",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "很少",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "从不",
+                    "optionvalue": 0
+                }
+            ]
+        },
+        {
+            "questiontext": "耳鸣会使您感到昏头昏脑吗？",
+            "answers": [
+                {
+                    "optiontext": "一直",
+                    "optionvalue": 4
+                },
+                {
+                    "optiontext": "频繁",
+                    "optionvalue": 3
+                },
+                {
+                    "optiontext": "有时",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "很少",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "从不",
+                    "optionvalue": 0
+                }
+            ]
+        },
+        {
+            "questiontext": "您会因耳鸣而感到绝望吗？",
+            "answers": [
+                {
+                    "optiontext": "一直",
+                    "optionvalue": 4
+                },
+                {
+                    "optiontext": "频繁",
+                    "optionvalue": 3
+                },
+                {
+                    "optiontext": "有时",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "很少",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "从不",
+                    "optionvalue": 0
+                }
+            ]
+        },
+        {
+            "questiontext": "您是否对耳鸣有很多抱怨？",
+            "answers": [
+                {
+                    "optiontext": "一直",
+                    "optionvalue": 4
+                },
+                {
+                    "optiontext": "频繁",
+                    "optionvalue": 3
+                },
+                {
+                    "optiontext": "有时",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "很少",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "从不",
+                    "optionvalue": 0
+                }
+            ]
+        },
+        {
+            "questiontext": "耳鸣会使您夜晚难以入睡吗？",
+            "answers": [
+                {
+                    "optiontext": "一直",
+                    "optionvalue": 4
+                },
+                {
+                    "optiontext": "频繁",
+                    "optionvalue": 3
+                },
+                {
+                    "optiontext": "有时",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "很少",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "从不",
+                    "optionvalue": 0
+                }
+            ]
+        },
+        {
+            "questiontext": "您是否觉得好像没有办法摆脱耳鸣？",
+            "answers": [
+                {
+                    "optiontext": "一直",
+                    "optionvalue": 4
+                },
+                {
+                    "optiontext": "频繁",
+                    "optionvalue": 3
+                },
+                {
+                    "optiontext": "有时",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "很少",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "从不",
+                    "optionvalue": 0
+                }
+            ]
+        },
+        {
+            "questiontext": "耳鸣是否妨碍您享受社交活动？（比如外出就餐、看电影等）",
+            "answers": [
+                {
+                    "optiontext": "一直",
+                    "optionvalue": 4
+                },
+                {
+                    "optiontext": "频繁",
+                    "optionvalue": 3
+                },
+                {
+                    "optiontext": "有时",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "很少",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "从不",
+                    "optionvalue": 0
+                }
+            ]
+        },
+        {
+            "questiontext": "您会因耳鸣而感到挫败吗？",
+            "answers": [
+                {
+                    "optiontext": "一直",
+                    "optionvalue": 4
+                },
+                {
+                    "optiontext": "频繁",
+                    "optionvalue": 3
+                },
+                {
+                    "optiontext": "有时",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "很少",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "从不",
+                    "optionvalue": 0
+                }
+            ]
+        },
+        {
+            "questiontext": "耳鸣会使您感觉患了很严重的疾病吗？",
+            "answers": [
+                {
+                    "optiontext": "一直",
+                    "optionvalue": 4
+                },
+                {
+                    "optiontext": "频繁",
+                    "optionvalue": 3
+                },
+                {
+                    "optiontext": "有时",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "很少",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "从不",
+                    "optionvalue": 0
+                }
+            ]
+        },
+        {
+            "questiontext": "耳鸣是否使您难以享受生活？",
+            "answers": [
+                {
+                    "optiontext": "一直",
+                    "optionvalue": 4
+                },
+                {
+                    "optiontext": "频繁",
+                    "optionvalue": 3
+                },
+                {
+                    "optiontext": "有时",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "很少",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "从不",
+                    "optionvalue": 0
+                }
+            ]
+        },
+        {
+            "questiontext": "耳鸣是否干扰您的工作或承担家庭责任？",
+            "answers": [
+                {
+                    "optiontext": "一直",
+                    "optionvalue": 4
+                },
+                {
+                    "optiontext": "频繁",
+                    "optionvalue": 3
+                },
+                {
+                    "optiontext": "有时",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "很少",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "从不",
+                    "optionvalue": 0
+                }
+            ]
+        },
+        {
+            "questiontext": "耳鸣是否会使您经常易怒？",
+            "answers": [
+                {
+                    "optiontext": "一直",
+                    "optionvalue": 4
+                },
+                {
+                    "optiontext": "频繁",
+                    "optionvalue": 3
+                },
+                {
+                    "optiontext": "有时",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "很少",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "从不",
+                    "optionvalue": 0
+                }
+            ]
+        },
+        {
+            "questiontext": "耳鸣是否使您很难静心阅读？",
+            "answers": [
+                {
+                    "optiontext": "一直",
+                    "optionvalue": 4
+                },
+                {
+                    "optiontext": "频繁",
+                    "optionvalue": 3
+                },
+                {
+                    "optiontext": "有时",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "很少",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "从不",
+                    "optionvalue": 0
+                }
+            ]
+        },
+        {
+            "questiontext": "耳鸣会使您感到沮丧吗？",
+            "answers": [
+                {
+                    "optiontext": "一直",
+                    "optionvalue": 4
+                },
+                {
+                    "optiontext": "频繁",
+                    "optionvalue": 3
+                },
+                {
+                    "optiontext": "有时",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "很少",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "从不",
+                    "optionvalue": 0
+                }
+            ]
+        },
+        {
+            "questiontext": "耳鸣是否造成您与家人及朋友的关系紧张？",
+            "answers": [
+                {
+                    "optiontext": "一直",
+                    "optionvalue": 4
+                },
+                {
+                    "optiontext": "频繁",
+                    "optionvalue": 3
+                },
+                {
+                    "optiontext": "有时",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "很少",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "从不",
+                    "optionvalue": 0
+                }
+            ]
+        },
+        {
+            "questiontext": "您是否难以将注意力从耳鸣转移到其他事情上？",
+            "answers": [
+                {
+                    "optiontext": "一直",
+                    "optionvalue": 4
+                },
+                {
+                    "optiontext": "频繁",
+                    "optionvalue": 3
+                },
+                {
+                    "optiontext": "有时",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "很少",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "从不",
+                    "optionvalue": 0
+                }
+            ]
+        },
+        {
+            "questiontext": "您是否觉得自己无法控制耳鸣？",
+            "answers": [
+                {
+                    "optiontext": "一直",
+                    "optionvalue": 4
+                },
+                {
+                    "optiontext": "频繁",
+                    "optionvalue": 3
+                },
+                {
+                    "optiontext": "有时",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "很少",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "从不",
+                    "optionvalue": 0
+                }
+            ]
+        },
+        {
+            "questiontext": "耳鸣是否使您经常感到疲惫？",
+            "answers": [
+                {
+                    "optiontext": "一直",
+                    "optionvalue": 4
+                },
+                {
+                    "optiontext": "频繁",
+                    "optionvalue": 3
+                },
+                {
+                    "optiontext": "有时",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "很少",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "从不",
+                    "optionvalue": 0
+                }
+            ]
+        },
+        {
+            "questiontext": "您会因耳鸣而感到压抑吗？",
+            "answers": [
+                {
+                    "optiontext": "一直",
+                    "optionvalue": 4
+                },
+                {
+                    "optiontext": "频繁",
+                    "optionvalue": 3
+                },
+                {
+                    "optiontext": "有时",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "很少",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "从不",
+                    "optionvalue": 0
+                }
+            ]
+        },
+        {
+            "questiontext": "耳鸣是否使您感到焦虑？",
+            "answers": [
+                {
+                    "optiontext": "一直",
+                    "optionvalue": 4
+                },
+                {
+                    "optiontext": "频繁",
+                    "optionvalue": 3
+                },
+                {
+                    "optiontext": "有时",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "很少",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "从不",
+                    "optionvalue": 0
+                }
+            ]
+        },
+        {
+            "questiontext": "您是否感觉再也不能忍受耳鸣了？",
+            "answers": [
+                {
+                    "optiontext": "一直",
+                    "optionvalue": 4
+                },
+                {
+                    "optiontext": "频繁",
+                    "optionvalue": 3
+                },
+                {
+                    "optiontext": "有时",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "很少",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "从不",
+                    "optionvalue": 0
+                }
+            ]
+        },
+        {
+            "questiontext": "耳鸣是否在您有压力的时候加重？",
+            "answers": [
+                {
+                    "optiontext": "一直",
+                    "optionvalue": 4
+                },
+                {
+                    "optiontext": "频繁",
+                    "optionvalue": 3
+                },
+                {
+                    "optiontext": "有时",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "很少",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "从不",
+                    "optionvalue": 0
+                }
+            ]
+        },
+        {
+            "questiontext": "耳鸣是否使您没有安全感？",
+            "answers": [
+                {
+                    "optiontext": "一直",
+                    "optionvalue": 4
+                },
+                {
+                    "optiontext": "频繁",
+                    "optionvalue": 3
+                },
+                {
+                    "optiontext": "有时",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "很少",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "从不",
+                    "optionvalue": 0
+                }
+            ]
+        }
+    ],
+    "ResultRankRef": [
+        {
+            "rankpoints": 77,
+            "rankdescriptions": "灾难性残疾"
+        },
+        {
+            "rankpoints": 57,
+            "rankdescriptions": "重度残疾"
+        },
+        {
+            "rankpoints": 37,
+            "rankdescriptions": "中度残疾"
+        },
+        {
+            "rankpoints": 17,
+            "rankdescriptions": "轻度残疾"
+        },
+        {
+            "rankpoints": 0,
+            "rankdescriptions": "无残疾"
+        }
+    ],
+    "UserResult": [
+        {
+            "userrankrd": "无残疾",
+            "userrawscorerd": 0.0,
+            "userAspectScores": [
+                {
+                    "aspectName": "功能性评分F",
+                    "aspectScore": 0.0
+                },
+                {
+                    "aspectName": "情感性评分E",
+                    "aspectScore": 0.0
+                },
+                {
+                    "aspectName": "严重性评分C",
+                    "aspectScore": 0.0
+                }
+            ]
+        }
+    ]
+}

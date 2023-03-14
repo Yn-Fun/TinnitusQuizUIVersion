@@ -1,0 +1,18 @@
+"filename", "language", "Gradle", "Java Properties", "XML", "Kotlin", "comment", "blank", "total"
+"d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\android\app\build.gradle", "Gradle", 54, 0, 0, 0, 32, 17, 103
+"d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\android\app\src\debug\AndroidManifest.xml", "XML", 0, 0, 3, 0, 4, 1, 8
+"d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\android\app\src\main\AndroidManifest.xml", "XML", 0, 0, 34, 0, 11, 2, 47
+"d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\android\app\src\main\kotlin\com\example\qehs\MainActivity.kt", "Kotlin", 0, 0, 0, 38, 17, 12, 67
+"d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\android\app\src\main\res\drawable\launch_background.xml", "XML", 0, 0, 4, 0, 14, 7, 25
+"d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\android\app\src\main\res\layout\launch_screen.xml", "XML", 0, 0, 11, 0, 1, 1, 13
+"d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\android\app\src\main\res\values-night\colors.xml", "XML", 0, 0, 6, 0, 0, 0, 6
+"d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\android\app\src\main\res\values-night\styles.xml", "XML", 0, 0, 11, 0, 11, 3, 25
+"d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\android\app\src\main\res\values-v21\styles.xml", "XML", 0, 0, 7, 0, 0, 4, 11
+"d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\android\app\src\main\res\values\colors.xml", "XML", 0, 0, 6, 0, 0, 1, 7
+"d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\android\app\src\main\res\values\styles.xml", "XML", 0, 0, 13, 0, 22, 7, 42
+"d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\android\app\src\profile\AndroidManifest.xml", "XML", 0, 0, 3, 0, 4, 1, 8
+"d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\android\build.gradle", "Gradle", 27, 0, 0, 0, 0, 5, 32
+"d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\android\gradle.properties", "Java Properties", 0, 3, 0, 0, 0, 1, 4
+"d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\android\gradle\wrapper\gradle-wrapper.properties", "Java Properties", 0, 5, 0, 0, 1, 1, 7
+"d:\Softwares\FLUTTER\FlutterProjects\TinnitusQuiz_Splash\android\settings.gradle", "Gradle", 8, 0, 0, 0, 0, 4, 12
+"Total", "-", 89, 8, 98, 38, 117, 67, 417

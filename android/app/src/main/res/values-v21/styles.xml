@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="SplashScreenTheme" parent="SplashScreen_SplashTheme">
+        <item name="android:colorPrimary">@color/status_bar_color</item>
+        <item name="android:statusBarColor">@color/status_bar_color</item>
+
+    </style>
+
+
+</resources>

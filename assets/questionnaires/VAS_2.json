@@ -1,0 +1,146 @@
+{
+    "Name": "视觉模拟量表（VAS）",
+    "Instructions": "该量表将您对耳鸣“声响程度”和“烦躁程度”量化为10档，请您结合自身感受，滑动选择最符合的选项。",
+    "TextandValues": [
+        {
+            "questiontext": "您觉得当前耳鸣的声响有多大？\n（0表示没有耳鸣声；10表示尽可能大的响度）",
+            "answers": [
+                {
+                    "optiontext": "10——剧烈声响",
+                    "optionvalue": 10
+                },
+                {
+                    "optiontext": "9",
+                    "optionvalue": 9
+                },
+                {
+                    "optiontext": "8",
+                    "optionvalue": 8
+                },
+                {
+                    "optiontext": "7",
+                    "optionvalue": 7
+                },
+                {
+                    "optiontext": "6",
+                    "optionvalue": 6
+                },
+                {
+                    "optiontext": "5",
+                    "optionvalue": 5
+                },
+                {
+                    "optiontext": "4",
+                    "optionvalue": 4
+                },
+                {
+                    "optiontext": "3",
+                    "optionvalue": 3
+                },
+                {
+                    "optiontext": "2",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "1",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "0——没有声响",
+                    "optionvalue": 0
+                }
+            ]
+        },
+        {
+            "questiontext": "您感觉当前耳鸣的烦躁程度，或对您的影响程度？\n（0表示没有痛苦；10表示剧烈痛苦）",
+            "answers": [
+                {
+                    "optiontext": "10——剧烈痛苦",
+                    "optionvalue": 10
+                },
+                {
+                    "optiontext": "9",
+                    "optionvalue": 9
+                },
+                {
+                    "optiontext": "8",
+                    "optionvalue": 8
+                },
+                {
+                    "optiontext": "7",
+                    "optionvalue": 7
+                },
+                {
+                    "optiontext": "6",
+                    "optionvalue": 6
+                },
+                {
+                    "optiontext": "5",
+                    "optionvalue": 5
+                },
+                {
+                    "optiontext": "4",
+                    "optionvalue": 4
+                },
+                {
+                    "optiontext": "3",
+                    "optionvalue": 3
+                },
+                {
+                    "optiontext": "2",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "1",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "0——没有痛苦",
+                    "optionvalue": 0
+                }
+            ]
+        }
+    ],
+    "ResultRankRef": [
+        {
+            "rankpoints": 9,
+            "rankdescriptions": "剧烈"
+        },
+        {
+            "rankpoints": 7,
+            "rankdescriptions": "重度"
+        },
+        {
+            "rankpoints": 5,
+            "rankdescriptions": "中度"
+        },
+        {
+            "rankpoints": 3,
+            "rankdescriptions": "轻度"
+        },
+        {
+            "rankpoints": 1,
+            "rankdescriptions": "轻微"
+        },
+        {
+            "rankpoints": 0,
+            "rankdescriptions": "没有"
+        }
+    ],
+    "UserResult": [
+        {
+            "userrankrd": "",
+            "userrawscorerd": 0.0,
+            "userAspectScores": [
+                {
+                    "aspectName": "VAS_loud:声响程度",
+                    "aspectScore": 0.0
+                },
+                {
+                    "aspectName": "VAS_annoy:烦躁程度",
+                    "aspectScore": 0.0
+                }
+            ]
+        }
+    ]
+}

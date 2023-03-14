@@ -1,0 +1,540 @@
+{
+    "Name": "匹兹堡睡眠质量指数量表（PSQI）",
+    "Instructions": "该量表旨在评估您最近一个月的睡眠情况，请您结合自身感受认真作答。",
+    "TextandValues": [
+        {
+            "questiontext": "在最近一个月中，您晚上上床睡觉通常是几点钟？",
+            "answers": [
+                {
+                    "optiontext": "用插件",
+                    "optionvalue": 0
+                }
+            ]
+        },
+        {
+            "questiontext": "在最近一个月中，您每晚通常要多长时间才能入睡（从上床到入睡）？",
+            "answers": [
+                {
+                    "optiontext": "0~15分钟",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "16~30分钟",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "31~60分钟",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "超过60分钟",
+                    "optionvalue": 3
+                }
+            ]
+        },
+        {
+            "questiontext": "在最近一个月中，您通常早上几点钟起床？",
+            "answers": [
+                {
+                    "optiontext": "用插件",
+                    "optionvalue": 0
+                }
+            ]
+        },
+        {
+            "questiontext": "在最近一个月中，您每晚实际睡眠的时间为多久？(注意不等同于卧床时间)",
+            "answers": [
+                {
+                    "optiontext": ">7小时",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "6~7小时",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "5~6小时",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "<5小时",
+                    "optionvalue": 3
+                }
+            ]
+        },
+        {
+            "questiontext": "在最近一个月中，您是否因下列情况影响睡眠而烦恼，并描述其程度：\n\n入睡困难（30分钟内不能入睡）",
+            "answers": [
+                {
+                    "optiontext": "过去一个月没有",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "一周不足1次",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "一周1次或2次",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "一周3次或更多",
+                    "optionvalue": 3
+                }
+            ]
+        },
+        {
+            "questiontext": "在最近一个月中，您是否因下列情况影响睡眠而烦恼，并描述其程度：\n\n夜间易醒或早醒",
+            "answers": [
+                {
+                    "optiontext": "过去一个月没有",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "一周不足1次",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "一周1次或2次",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "一周3次或更多",
+                    "optionvalue": 3
+                }
+            ]
+        },
+        {
+            "questiontext": "在最近一个月中，您是否因下列情况影响睡眠而烦恼，并描述其程度：\n\n夜间去厕所",
+            "answers": [
+                {
+                    "optiontext": "过去一个月没有",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "一周不足1次",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "一周1次或2次",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "一周3次或更多",
+                    "optionvalue": 3
+                }
+            ]
+        },
+        {
+            "questiontext": "在最近一个月中，您是否因下列情况影响睡眠而烦恼，并描述其程度：\n\n呼吸不畅",
+            "answers": [
+                {
+                    "optiontext": "过去一个月没有",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "一周不足1次",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "一周1次或2次",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "一周3次或更多",
+                    "optionvalue": 3
+                }
+            ]
+        },
+        {
+            "questiontext": "在最近一个月中，您是否因下列情况影响睡眠而烦恼，并描述其程度：\n\n咳嗽或鼾声高",
+            "answers": [
+                {
+                    "optiontext": "过去一个月没有",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "一周不足1次",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "一周1次或2次",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "一周3次或更多",
+                    "optionvalue": 3
+                }
+            ]
+        },
+        {
+            "questiontext": "在最近一个月中，您是否因下列情况影响睡眠而烦恼，并描述其程度：\n\n睡觉时感觉冷",
+            "answers": [
+                {
+                    "optiontext": "过去一个月没有",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "一周不足1次",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "一周1次或2次",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "一周3次或更多",
+                    "optionvalue": 3
+                }
+            ]
+        },
+        {
+            "questiontext": "在最近一个月中，您是否因下列情况影响睡眠而烦恼，并描述其程度：\n\n睡觉时感觉热",
+            "answers": [
+                {
+                    "optiontext": "过去一个月没有",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "一周不足1次",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "一周1次或2次",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "一周3次或更多",
+                    "optionvalue": 3
+                }
+            ]
+        },
+        {
+            "questiontext": "在最近一个月中，您是否因下列情况影响睡眠而烦恼，并描述其程度：\n\n做恶梦",
+            "answers": [
+                {
+                    "optiontext": "过去一个月没有",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "一周不足1次",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "一周1次或2次",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "一周3次或更多",
+                    "optionvalue": 3
+                }
+            ]
+        },
+        {
+            "questiontext": "在最近一个月中，您是否因下列情况影响睡眠而烦恼，并描述其程度：\n\n疼痛不适",
+            "answers": [
+                {
+                    "optiontext": "过去一个月没有",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "一周不足1次",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "一周1次或2次",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "一周3次或更多",
+                    "optionvalue": 3
+                }
+            ]
+        },
+        {
+            "questiontext": "在最近一个月中，您是否因下列情况影响睡眠而烦恼，并描述其程度：\n\n其他影响睡眠的事情",
+            "answers": [
+                {
+                    "optiontext": "过去一个月没有",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "一周不足1次",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "一周1次或2次",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "一周3次或更多",
+                    "optionvalue": 3
+                }
+            ]
+        },
+        {
+            "questiontext": "在最近一个月中，总的来说，您认为自己的睡眠质量：",
+            "answers": [
+                {
+                    "optiontext": "很好",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "较好",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "较差",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "很差",
+                    "optionvalue": 3
+                }
+            ]
+        },
+        {
+            "questiontext": "在最近一个月中，您用药物催眠的情况：",
+            "answers": [
+                {
+                    "optiontext": "过去一个月没有",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "一周不足1次",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "一周1次或2次",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "一周3次或更多",
+                    "optionvalue": 3
+                }
+            ]
+        },
+        {
+            "questiontext": "在最近一个月中，您常感到困倦吗（如开车、吃饭或参与社交活动时）？",
+            "answers": [
+                {
+                    "optiontext": "过去一个月没有",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "一周不足1次",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "一周1次或2次",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "一周3次或更多",
+                    "optionvalue": 3
+                }
+            ]
+        },
+        {
+            "questiontext": "在最近一个月中，耳鸣影响您热情洋溢地完成工作的程度有多大？",
+            "answers": [
+                {
+                    "optiontext": "完全没有影响",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "只有很小的影响",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "有一般程度的影响",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "有非常大的影响",
+                    "optionvalue": 3
+                }
+            ]
+        },
+        {
+            "questiontext": "您是与人同睡一床，或有室友：",
+            "answers": [
+                {
+                    "optiontext": "没有",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "同伴或室友在另一房间",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "同伴在同一房间但不同床",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "同伴在同一床上",
+                    "optionvalue": 3
+                }
+            ]
+        },
+        {
+            "questiontext": "如果您是与人同睡一床或有室友，请询问对方关于您在过去一个月里：\n\n在您睡觉时，有无打鼾声：",
+            "answers": [
+                {
+                    "optiontext": "过去一个月没有",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "一周不足1次",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "一周1次或2次",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "一周3次或更多",
+                    "optionvalue": 3
+                }
+            ]
+        },
+        {
+            "questiontext": "如果您是与人同睡一床或有室友，请询问对方关于您在过去一个月里：\n\n在您睡觉时，呼吸之间有没有长时间停顿：",
+            "answers": [
+                {
+                    "optiontext": "过去一个月没有",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "一周不足1次",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "一周1次或2次",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "一周3次或更多",
+                    "optionvalue": 3
+                }
+            ]
+        },
+        {
+            "questiontext": "如果您是与人同睡一床或有室友，请询问他您在过去一个月里：\n\n在您睡觉时，您的腿是否有抽动或痉挛：",
+            "answers": [
+                {
+                    "optiontext": "过去一个月没有",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "一周不足1次",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "一周1次或2次",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "一周3次或更多",
+                    "optionvalue": 3
+                }
+            ]
+        },
+        {
+            "questiontext": "如果您是与人同睡一床或有室友，请询问对方关于您在过去一个月里：\n\n在您睡觉时，是否出现不能辨认方向或混乱状态：",
+            "answers": [
+                {
+                    "optiontext": "过去一个月没有",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "一周不足1次",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "一周1次或2次",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "一周3次或更多",
+                    "optionvalue": 3
+                }
+            ]
+        },
+        {
+            "questiontext": "如果您是与人同睡一床或有室友，请询问对方关于您在过去一个月里：\n\n在您睡觉时，是否有其他睡觉不安宁的情况：",
+            "answers": [
+                {
+                    "optiontext": "过去一个月没有",
+                    "optionvalue": 0
+                },
+                {
+                    "optiontext": "一周不足1次",
+                    "optionvalue": 1
+                },
+                {
+                    "optiontext": "一周1次或2次",
+                    "optionvalue": 2
+                },
+                {
+                    "optiontext": "一周3次或更多",
+                    "optionvalue": 3
+                }
+            ]
+        }
+    ],
+    "ResultRankRef": [
+        {
+            "rankpoints": 16,
+            "rankdescriptions": "睡眠质量很差"
+        },
+        {
+            "rankpoints": 11,
+            "rankdescriptions": "睡眠质量一般"
+        },
+        {
+            "rankpoints": 6,
+            "rankdescriptions": "睡眠质量还行"
+        },
+        {
+            "rankpoints": 0,
+            "rankdescriptions": "睡眠质量很好"
+        }
+    ],
+    "UserResult": [
+        {
+            "userrankrd": "正常",
+            "userrawscorerd": 0.0,
+            "userAspectScores": [
+                {
+                    "aspectName": "A.睡眠质量",
+                    "aspectScore": 0.0
+                },
+                {
+                    "aspectName": "B.入睡时间",
+                    "aspectScore": 0.0
+                },
+                {
+                    "aspectName": "C.睡眠时间",
+                    "aspectScore": 0.0
+                },
+                {
+                    "aspectName": "D.睡眠效率",
+                    "aspectScore": 0.0
+                },
+                {
+                    "aspectName": "E.睡眠障碍",
+                    "aspectScore": 0.0
+                },
+                {
+                    "aspectName": "F.催眠药物",
+                    "aspectScore": 0.0
+                },
+                {
+                    "aspectName": "G.日间功能障碍",
+                    "aspectScore": 0.0
+                }
+            ]
+        }
+    ]
+}
