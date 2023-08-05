@@ -1,23 +1,37 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
-    package="com.example.QEHS"
-    android:versionCode="13"
-    android:versionName="2.3.3">
+
+   <!-- package="com.example.TinnQuizQEHS"
+   android:versionCode="13"
+   android:versionName="2.3.3" -->
+
 <!-- 要访问SD卡，首先设置读取权限 -->
 <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-<!--    xmlns:tools="http://schemas.android.com/tools"-->
 <!-- 允许应用程序请求删除安装包 -->
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 均衡 -->
+<uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+<uses-permission android:name="android.permission.INTERNET"/>
+
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+
 <!-- 为了访问这些目录，你需要在应用程序中申请特殊权限， -->
 <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
 
-<uses-permission android:name="android.permission.DELETE_PACKAGES"/>
+<!-- flutter_sound请求的 其实不一定需要 -->
+<uses-permission android:name="android.permission.RECORD_AUDIO" />
+<!--<uses-permission android:name="android.permission.DELETE_PACKAGES"/>-->
+<!-- 唤醒锁定权限 -->
+<uses-permission android:name="android.permission.WAKE_LOCK" />
+    
+<!-- 除了上面的permission，下面这条 是对于Android10及以上的设备 访问权限必须的！ android:requestLegacyExternalStorage="true" -->
     <application
+        android:requestLegacyExternalStorage="true" 
         android:label="耳鸣主观量表App"
-        android:icon="@mipmap/ic_launcher_qehsnew"
-        android:name="${applicationName}">
-<!--        android:deleteApkOnInstall="true">   &lt;!&ndash;这行刚加的&ndash;&gt;-->
+        android:icon="@mipmap/ic_launcher_qehsnew">
+<!--        android:name="${applicationName}">-->
+<!--        android:deleteApkOnInstall="trueapplicationName">   &lt;!&ndash;这行刚加的&ndash;&gt;-->
         <activity
-            android:name="com.example.qehs.MainActivity"
+            android:name="com.example.TinnQuizQEHS.MainActivity"
             android:exported="true"
             android:launchMode="singleTop"
             android:theme="@style/LaunchTheme"

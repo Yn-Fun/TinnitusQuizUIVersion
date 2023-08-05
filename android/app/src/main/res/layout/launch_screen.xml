@@ -7,7 +7,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/primary_white"
-        android:src="@drawable/qidong_qehsnew"
-        android:scaleType="fitCenter" />
+        android:src="@drawable/qidong_qehsnew" 
+        android:scaleType="fitXY" />
 </RelativeLayout>
-<!-- 自己写的 -->
+<!-- 设置启动页的有效代码 -->
+<!-- fitXY 不顾比例 全填充 -->

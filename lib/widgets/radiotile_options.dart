@@ -1,5 +1,7 @@
 //经修后
+
 import 'package:flutter/material.dart';
+import 'package:tinnitus_quizs/configs/app_colors.dart';
 
 import '../configs/media_QSize.dart';
 
@@ -52,8 +54,8 @@ class RadioTileOptions extends StatefulWidget {
     required this.ifChange,
     this.labelStyle = const TextStyle(),
     Color? activeColor, //defaults to toggleableActiveColor,
-    this.padding = const EdgeInsets.all(5),
-    this.margin = const EdgeInsets.all(5),
+    this.padding = const EdgeInsets.all(3),
+    this.margin = const EdgeInsets.all(3),
   });
 
   @override
@@ -82,25 +84,45 @@ class _RadioTileOptionsState extends State<RadioTileOptions> {
 
     for (int i = 0; i < widget.labels.length; i++) {
       //遍历几个选项
-      Text t = Text(widget.labels.elementAt(i),
-          style: (widget.disabled.contains(widget.labels.elementAt(i)))
-              ? widget.labelStyle.apply(color: Theme.of(context).disabledColor)
-              : widget.labelStyle);
+      Text t = Text(
+        widget.labels.elementAt(i),
+        style: TextStyle(
+            color: _selected == widget.labels.elementAt(i)
+                ? AppColors.pPurple
+                : Colors.black,
+            fontSize: 16 * MediaQSize.heightRefScale,
+            fontWeight: FontWeight.w500),
+      );
 
       RadioListTile rb = RadioListTile(
-        // activeColor:
-        //     widget.activeColor ?? Theme.of(context).toggleableActiveColor,
-        contentPadding: const EdgeInsets.
-                // all(50),
-                only(left: 3, top: 5, bottom: 5) *
+        activeColor: AppColors.pPurple, // 将圆圈颜色设为透明
+        // controlAffinity: ListTileControlAffinity.trailing, // 将圆圈移动到标题后面
+        secondary: _selected == widget.labels.elementAt(i)
+            ? Icon(
+                Icons.check,
+                color: AppColors.pPurple,
+                size: 22 * MediaQSize.heightRefScale,
+              ) // 对勾图标
+            : Icon(Icons.check_box_outline_blank,
+                color: Colors.transparent,
+                size: 22 * MediaQSize.heightRefScale), // 未选中图标
+        contentPadding: const EdgeInsets.only(left: 0, top: 3) *
             MediaQSize.heightRefScale, //设置选项卡的格式
-        // contentPadding: const EdgeInsets.symmetric(vertical: 8, horizontal: 30), //设置选项的内陷，可以设置高度
-
-        controlAffinity:
-            ListTileControlAffinity.leading, //trailing：为radio小圆圈在后，leading在前
-        groupValue: widget.labels.indexOf(_selected),
+        groupValue: widget.labels.indexOf(_selected), //选中的
         value: i,
-        title: t,
+        title: Container(
+            //文字
+            padding: EdgeInsets.only(left: 30 * MediaQSize.widthRefScale),
+            alignment: Alignment.centerLeft,
+            height: 40 * MediaQSize.heightRefScale,
+            decoration: BoxDecoration(
+              color: _selected == widget.labels.elementAt(i)
+                  ? AppColors.lPurple
+                  : AppColors.lightblue,
+              borderRadius:
+                  BorderRadius.circular(12) * MediaQSize.widthRefScale,
+            ),
+            child: t),
         //单选
         onChanged: (widget.disabled.contains(widget.labels.elementAt(i)))
             ? null
@@ -112,12 +134,12 @@ class _RadioTileOptionsState extends State<RadioTileOptions> {
                 }),
       );
 
-//use predefined method of building
-      //vertical orientation means Column with Row inside
       // print("启动build"); //入了
 
       content.add(rb);
-      content.add(const Divider());
+      content.add(const Divider(
+        color: Colors.white,
+      ));
       // print("debug加了");
     }
     // print("debug加了");

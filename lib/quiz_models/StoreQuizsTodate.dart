@@ -2,6 +2,10 @@ import 'package:tinnitus_quizs/quiz_models/QuizInfo.dart';
 
 // 用来共享的全局变量
 class StoreQuizs {
+
+  //加载显示的QuizInfo类的List
+  static List<QuizInfo> quizsList = []; //按顺序存放加载后的5个问卷
+
   static List<QuizInfo>? quizInfoTotalRcnList; //类似堆栈,多次结果可以叠加[历史全记录]
 
   //最近一套（5类各一）的5份结果

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../configs/app_colors.dart';
 import '../configs/media_QSize.dart';
 
 class Slider0_10 extends StatefulWidget {
@@ -65,6 +66,10 @@ class _Slider0_10State extends State<Slider0_10> {
               activeTickMarkColor: Colors.white,
             ),
             child: Slider(
+              mouseCursor: SystemMouseCursors.grab,
+              thumbColor: AppColors.pPurple,
+              activeColor: AppColors.pPurple,
+              inactiveColor: AppColors.lightgrey,
               value: currentSliderValue.toDouble(),
               max: widget.usermax,
               min: widget.usermin,
@@ -91,14 +96,17 @@ class _Slider0_10State extends State<Slider0_10> {
             ),
           ),
           SizedBox(
-            height: 40 * MediaQSize.heightRefScale,
+            height: 5 * MediaQSize.heightRefScale,
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                "当前值/最大值  =  ${currentSliderValue.toStringAsFixed(0)} / ${widget.usermax.toStringAsFixed(0)}",
-                style: TextStyle(fontSize: 23 * MediaQSize.heightRefScale),
+                "当前值 / 最大值  =  ${currentSliderValue.toStringAsFixed(0)} / ${widget.usermax.toStringAsFixed(0)}",
+                style: TextStyle(
+                    fontSize: 18 * MediaQSize.heightRefScale,
+                    fontWeight: FontWeight.w600,
+                    fontStyle: FontStyle.normal),
               ),
               // Text(),
             ],

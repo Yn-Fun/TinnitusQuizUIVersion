@@ -1,10 +1,11 @@
-{ //自动实现代码补全
-    "editor.codeActionsOnSave": {
-        "source.fixAll": true
-    },
-    //按保存之后 自动格式化
-    "editor.formatOnSave": true,
-    //对widget的嵌套一目了然
-    "dart.previewFlutterUiGuides": true,
-    "java.configuration.updateBuildConfiguration": "interactive"
+{
+  //自动实现代码补全
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  //按保存之后 自动格式化
+  "editor.formatOnSave": true,
+  //对widget的嵌套一目了然
+  "dart.previewFlutterUiGuides": true,
+  "java.configuration.updateBuildConfiguration": "automatic"
 }
