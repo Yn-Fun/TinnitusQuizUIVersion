@@ -1,5 +1,8 @@
+## 耳鸣量表 APP（UI 版）
 
-A new Flutter project.
+已经重新写了设计的界面，并更换了部分逻辑，修改了一些 bug
+
+现提交到 Github 远程仓库上， -说明：之所以在 first commit 之前还有一个声称“第二次提交的东西"，是因为之前 23 年 3 月（本科毕设期间）尝试使用 git 管理，所以留存了记录。
 
 ## Getting Started
 
