@@ -95,33 +95,17 @@ class QuizSelectionPageState extends State<QuizSelectionPage> {
                                   contentPadding:
                                       const EdgeInsets.fromLTRB(0, 20, 0, 20) *
                                           MediaQSize.widthRefScale,
-                                  icon: Stack(
-                                    children: [
-                                      Padding(
-                                        padding: const EdgeInsets.only(
-                                                left: 60, right: 60, top: 40) *
-                                            MediaQSize.widthRefScale,
-                                        child: Text(
-                                          '确认要重置数据吗？',
-                                          style: TextStyle(
-                                              fontSize:
-                                                  20 * MediaQSize.widthRefScale,
-                                              fontWeight: FontWeight.w600),
-                                        ),
-                                      ),
-                                      Positioned(
-                                        bottom: 30 * MediaQSize.widthRefScale,
-                                        right: 0 * MediaQSize.widthRefScale,
-                                        child: IconButton(
-                                            icon: Icon(Icons.cancel_outlined,
-                                                color: AppColors.darkgrey,
-                                                size: 20 *
-                                                    MediaQSize
-                                                        .widthRefScale), //叉
-                                            onPressed:
-                                                Navigator.of(context).pop),
-                                      )
-                                    ],
+                                  icon: Padding(
+                                    padding: const EdgeInsets.only(
+                                            left: 60, right: 60, top: 20) *
+                                        MediaQSize.widthRefScale,
+                                    child: Text(
+                                      '确认要重置数据吗？',
+                                      style: TextStyle(
+                                          fontSize:
+                                              20 * MediaQSize.widthRefScale,
+                                          fontWeight: FontWeight.w600),
+                                    ),
                                   ),
                                   shape: RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(20),
@@ -226,8 +210,6 @@ class QuizSelectionPageState extends State<QuizSelectionPage> {
                                                 15 * MediaQSize.widthRefScale)
                                       ],
                                     ),
-                                    SizedBox(
-                                        height: 15 * MediaQSize.widthRefScale)
                                   ],
                                 );
                               },

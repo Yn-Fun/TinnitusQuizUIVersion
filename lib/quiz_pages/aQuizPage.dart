@@ -581,29 +581,15 @@ class _QuizPageState extends State<QuizPage> {
               return AlertDialog(
                 contentPadding: const EdgeInsets.fromLTRB(0, 20, 0, 20) *
                     MediaQSize.widthRefScale,
-                icon: Stack(
-                  children: [
-                    Padding(
-                      padding:
-                          const EdgeInsets.only(left: 60, right: 60, top: 40) *
-                              MediaQSize.widthRefScale,
-                      child: Text(
-                        '确认要退出当前量表吗？',
-                        style: TextStyle(
-                            fontSize: 20 * MediaQSize.widthRefScale,
-                            fontWeight: FontWeight.w600),
-                      ),
-                    ),
-                    Positioned(
-                      bottom: 30 * MediaQSize.widthRefScale,
-                      right: 0 * MediaQSize.widthRefScale,
-                      child: IconButton(
-                          icon: Icon(Icons.cancel_outlined,
-                              color: AppColors.darkgrey,
-                              size: 20 * MediaQSize.widthRefScale), //叉
-                          onPressed: Navigator.of(context).pop),
-                    )
-                  ],
+                icon: Padding(
+                  padding: const EdgeInsets.only(left: 60, right: 60, top: 20) *
+                      MediaQSize.widthRefScale,
+                  child: Text(
+                    '确认要退出当前量表吗？',
+                    style: TextStyle(
+                        fontSize: 20 * MediaQSize.widthRefScale,
+                        fontWeight: FontWeight.w600),
+                  ),
                 ),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(20),
@@ -685,13 +671,11 @@ class _QuizPageState extends State<QuizPage> {
                       SizedBox(height: 15 * MediaQSize.widthRefScale)
                     ],
                   ),
-                  SizedBox(height: 15 * MediaQSize.widthRefScale)
                 ],
               );
             },
           );
           return shouldPop!;
-          setState(() {});
         },
         child: Scaffold(
             appBar: AppBar(
@@ -721,29 +705,16 @@ class _QuizPageState extends State<QuizPage> {
                         contentPadding:
                             const EdgeInsets.fromLTRB(0, 20, 0, 20) *
                                 MediaQSize.widthRefScale,
-                        icon: Stack(
-                          children: [
-                            Padding(
-                              padding: const EdgeInsets.only(
-                                      left: 60, right: 60, top: 40) *
-                                  MediaQSize.widthRefScale,
-                              child: Text(
-                                '确认要退出当前量表吗？',
-                                style: TextStyle(
-                                    fontSize: 20 * MediaQSize.widthRefScale,
-                                    fontWeight: FontWeight.w600),
-                              ),
-                            ),
-                            Positioned(
-                              bottom: 30 * MediaQSize.widthRefScale,
-                              right: 0 * MediaQSize.widthRefScale,
-                              child: IconButton(
-                                  icon: Icon(Icons.cancel_outlined,
-                                      color: AppColors.darkgrey,
-                                      size: 20 * MediaQSize.widthRefScale), //叉
-                                  onPressed: Navigator.of(context).pop),
-                            )
-                          ],
+                        icon: Padding(
+                          padding: const EdgeInsets.only(
+                                  left: 60, right: 60, top: 20) *
+                              MediaQSize.widthRefScale,
+                          child: Text(
+                            '确认要退出当前量表吗？',
+                            style: TextStyle(
+                                fontSize: 20 * MediaQSize.widthRefScale,
+                                fontWeight: FontWeight.w600),
+                          ),
                         ),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(20),
@@ -824,7 +795,6 @@ class _QuizPageState extends State<QuizPage> {
                               SizedBox(height: 15 * MediaQSize.widthRefScale)
                             ],
                           ),
-                          SizedBox(height: 15 * MediaQSize.widthRefScale)
                         ],
                       );
                     },
