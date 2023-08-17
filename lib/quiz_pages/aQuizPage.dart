@@ -571,38 +571,278 @@ class _QuizPageState extends State<QuizPage> {
     // //调用函数 获取设备尺寸信息和缩放比
     // MediaQSize().initMQ(context);
     double currentPosition = questionIndex.toDouble(); //用于进度指引
-    return Scaffold(
-        appBar: AppBar(
-          backgroundColor: Colors.white,
-          automaticallyImplyLeading: false, //不显示默认的小返回键
-          centerTitle: true,
-          title: Text(
-            widget.chosenquiz.quizName,
-            textAlign: TextAlign.center,
-            style: TextStyle(
-                fontSize: 18 * MediaQSize.heightRefScale,
-                color: Colors.black,
-                fontWeight: FontWeight.w500),
-          ),
-          leading: IconButton(
-            icon: const Icon(IconData(0xe903, fontFamily: 'Path4icons'),
-                color: Colors.black),
-            tooltip: "回到量表主页",
-            iconSize: 20 * MediaQSize.widthRefScale,
-            onPressed: () {
-              Navigator.pop(context);
+    return WillPopScope(
+        //增加WillPopScope来检测
+        onWillPop: () async {
+          final shouldPop = await showDialog<bool>(
+            context: context,
+            barrierDismissible: false, // user must tap button for close dialog!
+            builder: (BuildContext context) {
+              return AlertDialog(
+                contentPadding: const EdgeInsets.fromLTRB(0, 20, 0, 20) *
+                    MediaQSize.widthRefScale,
+                icon: Stack(
+                  children: [
+                    Padding(
+                      padding:
+                          const EdgeInsets.only(left: 60, right: 60, top: 40) *
+                              MediaQSize.widthRefScale,
+                      child: Text(
+                        '确认要退出当前量表吗？',
+                        style: TextStyle(
+                            fontSize: 20 * MediaQSize.widthRefScale,
+                            fontWeight: FontWeight.w600),
+                      ),
+                    ),
+                    Positioned(
+                      bottom: 30 * MediaQSize.widthRefScale,
+                      right: 0 * MediaQSize.widthRefScale,
+                      child: IconButton(
+                          icon: Icon(Icons.cancel_outlined,
+                              color: AppColors.darkgrey,
+                              size: 20 * MediaQSize.widthRefScale), //叉
+                          onPressed: Navigator.of(context).pop),
+                    )
+                  ],
+                ),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(20),
+                ),
+                actionsAlignment: MainAxisAlignment.spaceEvenly,
+                content: Container(
+                    width: MediaQSize.thisDsize.width * 0.3,
+                    height: MediaQSize.thisDsize.height * 0.03,
+                    alignment: Alignment.center,
+                    child: Text('退出后若重新进入，将从第1题开始记录',
+                        style: TextStyle(
+                            color: Colors.grey,
+                            fontSize: 16 * MediaQSize.widthRefScale))),
+                actions: <Widget>[
+                  Column(
+                    children: [
+                      ElevatedButton(
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: AppColors.Superlightgrey,
+                          side: const BorderSide(
+                              color: AppColors.pPurple, width: 1.5),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(30),
+                          ),
+                        ),
+                        child: SizedBox(
+                          width: 25.5 * 4 * MediaQSize.widthRefScale,
+                          height: 8.8 * 5 * MediaQSize.widthRefScale,
+                          child: Center(
+                            child: Text(
+                              "否，继续作答",
+                              style: TextStyle(
+                                color: Colors.black,
+                                fontWeight: FontWeight.w500,
+                                fontSize: 16 * MediaQSize.widthRefScale,
+                              ),
+                            ),
+                          ),
+                        ),
+                        onPressed: () {
+                          Navigator.of(context).pop(false);
+                        },
+                      ),
+                      SizedBox(height: 15 * MediaQSize.widthRefScale)
+                    ],
+                  ),
+                  SizedBox(width: 15 * MediaQSize.widthRefScale),
+                  Column(
+                    children: [
+                      ElevatedButton(
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: AppColors.Superlightgrey,
+                          side: const BorderSide(
+                              color: AppColors.pPurple, width: 1.5),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(30),
+                          ),
+                        ),
+                        child: SizedBox(
+                          width: 25.5 * 4 * MediaQSize.widthRefScale,
+                          height: 8.8 * 5 * MediaQSize.widthRefScale,
+                          child: Center(
+                            child: Text(
+                              "是，确认退出",
+                              style: TextStyle(
+                                color: Colors.black,
+                                fontWeight: FontWeight.w500,
+                                fontSize: 16 * MediaQSize.widthRefScale,
+                              ),
+                            ),
+                          ),
+                        ),
+                        onPressed: () {
+                          Navigator.of(context).pop(false);
+                          Navigator.popUntil(
+                              context, ModalRoute.withName('/')); //退出直到主页
+                        },
+                      ),
+                      SizedBox(height: 15 * MediaQSize.widthRefScale)
+                    ],
+                  ),
+                  SizedBox(height: 15 * MediaQSize.widthRefScale)
+                ],
+              );
             },
-          ), //如果写了leading就不会有默认的返回键了
-          toolbarHeight: 50 * MediaQSize.heightRefScale, //leading和title那行的位置高度
-        ),
-        body: Container(
-            height: MediaQSize.thisDsize.height,
-            width: MediaQSize.thisDsize.width,
-            decoration: const BoxDecoration(
-                image: DecorationImage(
-                    image: AssetImage("assets/images/bg.png"),
-                    fit: BoxFit.cover)),
-            child: switchWidget(context)));
+          );
+          return shouldPop!;
+          setState(() {});
+        },
+        child: Scaffold(
+            appBar: AppBar(
+              backgroundColor: Colors.white,
+              automaticallyImplyLeading: false, //不显示默认的小返回键
+              centerTitle: true,
+              title: Text(
+                widget.chosenquiz.quizName,
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                    fontSize: 18 * MediaQSize.heightRefScale,
+                    color: Colors.black,
+                    fontWeight: FontWeight.w500),
+              ),
+              leading: IconButton(
+                icon: const Icon(IconData(0xe903, fontFamily: 'Path4icons'),
+                    color: Colors.black),
+                tooltip: "回到量表主页",
+                iconSize: 20 * MediaQSize.widthRefScale,
+                onPressed: () {
+                  showDialog(
+                    context: context,
+                    barrierDismissible:
+                        false, // user must tap button for close dialog!
+                    builder: (BuildContext context) {
+                      return AlertDialog(
+                        contentPadding:
+                            const EdgeInsets.fromLTRB(0, 20, 0, 20) *
+                                MediaQSize.widthRefScale,
+                        icon: Stack(
+                          children: [
+                            Padding(
+                              padding: const EdgeInsets.only(
+                                      left: 60, right: 60, top: 40) *
+                                  MediaQSize.widthRefScale,
+                              child: Text(
+                                '确认要退出当前量表吗？',
+                                style: TextStyle(
+                                    fontSize: 20 * MediaQSize.widthRefScale,
+                                    fontWeight: FontWeight.w600),
+                              ),
+                            ),
+                            Positioned(
+                              bottom: 30 * MediaQSize.widthRefScale,
+                              right: 0 * MediaQSize.widthRefScale,
+                              child: IconButton(
+                                  icon: Icon(Icons.cancel_outlined,
+                                      color: AppColors.darkgrey,
+                                      size: 20 * MediaQSize.widthRefScale), //叉
+                                  onPressed: Navigator.of(context).pop),
+                            )
+                          ],
+                        ),
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(20),
+                        ),
+                        actionsAlignment: MainAxisAlignment.spaceEvenly,
+                        content: Container(
+                            width: MediaQSize.thisDsize.width * 0.3,
+                            height: MediaQSize.thisDsize.height * 0.03,
+                            alignment: Alignment.center,
+                            child: Text('退出后若重新进入，将从第1题开始记录',
+                                style: TextStyle(
+                                    color: Colors.grey,
+                                    fontSize: 16 * MediaQSize.widthRefScale))),
+                        actions: <Widget>[
+                          Column(
+                            children: [
+                              ElevatedButton(
+                                style: ElevatedButton.styleFrom(
+                                  backgroundColor: AppColors.Superlightgrey,
+                                  side: const BorderSide(
+                                      color: AppColors.pPurple, width: 1.5),
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(30),
+                                  ),
+                                ),
+                                child: SizedBox(
+                                  width: 25.5 * 4 * MediaQSize.widthRefScale,
+                                  height: 8.8 * 5 * MediaQSize.widthRefScale,
+                                  child: Center(
+                                    child: Text(
+                                      "否，继续作答",
+                                      style: TextStyle(
+                                        color: Colors.black,
+                                        fontWeight: FontWeight.w500,
+                                        fontSize: 16 * MediaQSize.widthRefScale,
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                                onPressed: () {
+                                  Navigator.of(context).pop();
+                                },
+                              ),
+                              SizedBox(height: 15 * MediaQSize.widthRefScale)
+                            ],
+                          ),
+                          SizedBox(width: 15 * MediaQSize.widthRefScale),
+                          Column(
+                            children: [
+                              ElevatedButton(
+                                style: ElevatedButton.styleFrom(
+                                  backgroundColor: AppColors.Superlightgrey,
+                                  side: const BorderSide(
+                                      color: AppColors.pPurple, width: 1.5),
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(30),
+                                  ),
+                                ),
+                                child: SizedBox(
+                                  width: 25.5 * 4 * MediaQSize.widthRefScale,
+                                  height: 8.8 * 5 * MediaQSize.widthRefScale,
+                                  child: Center(
+                                    child: Text(
+                                      "是，确认退出",
+                                      style: TextStyle(
+                                        color: Colors.black,
+                                        fontWeight: FontWeight.w500,
+                                        fontSize: 16 * MediaQSize.widthRefScale,
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                                onPressed: () {
+                                  Navigator.popUntil(context,
+                                      ModalRoute.withName('/')); //退出直到主页
+                                },
+                              ),
+                              SizedBox(height: 15 * MediaQSize.widthRefScale)
+                            ],
+                          ),
+                          SizedBox(height: 15 * MediaQSize.widthRefScale)
+                        ],
+                      );
+                    },
+                  );
+                  setState(() {});
+                },
+              ), //如果写了leading就不会有默认的返回键了
+              toolbarHeight:
+                  50 * MediaQSize.heightRefScale, //leading和title那行的位置高度
+            ),
+            body: Container(
+                height: MediaQSize.thisDsize.height,
+                width: MediaQSize.thisDsize.width,
+                decoration: const BoxDecoration(
+                    image: DecorationImage(
+                        image: AssetImage("assets/images/bg.png"),
+                        fit: BoxFit.cover)),
+                child: switchWidget(context))));
   }
 
   Widget switchWidget(BuildContext context) {
