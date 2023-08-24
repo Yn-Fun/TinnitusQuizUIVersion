@@ -846,9 +846,7 @@ class _QuizPageState extends State<QuizPage> {
   Widget THIWidget(BuildContext context) {
     double currentPosition = questionIndex.toDouble(); //用于进度指引
     return ListView(
-      children:
-          //TODO :把布局再改一下，小圆圈太小了，可以单独列出来
-          [
+      children: [
         //THI题号卡区域
         Container(
           height: 40.8 * 5 * MediaQSize.heightRefScale,
@@ -908,9 +906,8 @@ class _QuizPageState extends State<QuizPage> {
         //THI题目文字+选项组
         Container(
           height: 67 * 6.4 * MediaQSize.heightRefScale,
-          width: 115.2 * 6.4 * MediaQSize.widthRefScale,
-          margin: const EdgeInsets.fromLTRB(15, 15, 15, 0) *
-              MediaQSize.heightRefScale,
+          margin: EdgeInsets.fromLTRB(15 * MediaQSize.widthRefScale,
+              15 * MediaQSize.heightRefScale, 15 * MediaQSize.widthRefScale, 0),
           padding: const EdgeInsets.only(top: 5) * MediaQSize.heightRefScale,
           color: Colors.white,
           child: Stack(
@@ -930,8 +927,11 @@ class _QuizPageState extends State<QuizPage> {
               ),
               //按钮组
               Positioned(
-                top: 85 * MediaQSize.heightRefScale,
-                left: -26 * MediaQSize.widthRefScale,
+                // top: 85 * MediaQSize.heightRefScale,
+                // left: -26 * MediaQSize.widthRefScale,
+                // bottom: 67 * 6.4 * 0.01 * MediaQSize.heightRefScale,
+                top: 67 * 6.4 * 0.195 * MediaQSize.heightRefScale,
+                left: -115.2 * 6.4 * 0.04 * MediaQSize.widthRefScale, //4%
                 child: Column(
                   children: [
                     //选项按钮组
@@ -1463,10 +1463,12 @@ class _QuizPageState extends State<QuizPage> {
 
           //TEQ题目文字+选项组
           Container(
-            height: 65 * 5 * MediaQSize.heightRefScale,
-            width: 115.2 * 5 * MediaQSize.widthRefScale,
-            margin: const EdgeInsets.fromLTRB(15, 15, 15, 0) *
-                MediaQSize.heightRefScale,
+            height: 70 * 5 * MediaQSize.heightRefScale,
+            margin: EdgeInsets.fromLTRB(
+                15 * MediaQSize.widthRefScale,
+                15 * MediaQSize.heightRefScale,
+                15 * MediaQSize.widthRefScale,
+                0),
             padding: const EdgeInsets.only(top: 5) * MediaQSize.heightRefScale,
             color: Colors.white,
             child: Stack(
@@ -1486,9 +1488,13 @@ class _QuizPageState extends State<QuizPage> {
                 (questionIndex != 5) //第六题为滑块
                     ? Stack(
                         children: [
+                          //按钮组
                           Positioned(
-                            top: 60 * MediaQSize.heightRefScale,
-                            left: -26 * MediaQSize.widthRefScale,
+                            top: 65 * 5 * 0.19 * MediaQSize.heightRefScale,
+                            left: -115.2 *
+                                5 *
+                                0.055 *
+                                MediaQSize.widthRefScale, //5.5%
                             child: Column(
                               children: [
                                 //选项按钮组
@@ -1702,10 +1708,12 @@ class _QuizPageState extends State<QuizPage> {
           ),
           //PSQI题目文字+选项组
           Container(
-            height: 85 * 5 * MediaQSize.heightRefScale,
-            width: 115.2 * 5 * MediaQSize.widthRefScale,
-            margin: const EdgeInsets.fromLTRB(15, 15, 15, 0) *
-                MediaQSize.heightRefScale,
+            height: 86 * 5 * MediaQSize.heightRefScale,
+            margin: EdgeInsets.fromLTRB(
+                15 * MediaQSize.widthRefScale,
+                15 * MediaQSize.heightRefScale,
+                15 * MediaQSize.widthRefScale,
+                0),
             padding: const EdgeInsets.only(top: 5) * MediaQSize.heightRefScale,
             color: Colors.white,
             child: Stack(
@@ -1785,13 +1793,16 @@ class _QuizPageState extends State<QuizPage> {
                         )),
                   ])
 
-                //选项按钮组
+                //按钮组
                 else
                   Stack(
                     children: [
                       Positioned(
-                        top: 140 * MediaQSize.heightRefScale,
-                        left: -26 * MediaQSize.widthRefScale,
+                        top: 85 * 5 * 0.33 * MediaQSize.heightRefScale,
+                        left: -115.2 *
+                            5 *
+                            0.055 *
+                            MediaQSize.widthRefScale, //5.5%
                         child: Column(
                           children: [
                             Container(
